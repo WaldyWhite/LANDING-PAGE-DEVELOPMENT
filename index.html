@@ -1,0 +1,117 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>Дизайн и верстка</title>
+</head>
+<body>
+    <header class="header">
+        <div class="fix-container">
+            <div class="header-container">
+                <div class="header-container__logo">
+                    <img class="header-container__img" src="./svg/logo_WD.svg" alt="logo">
+                </div>
+                <nav class="header-container__nav">
+                    <ul class="nav-links">
+                        <li class="nav-links__item"><a class="nav-links__link" href="#main-page">ГЛАВНАЯ</a></li>
+                        <li class="nav-links__item"><a class="nav-links__link" href="#about-me">ОБ АВТОРЕ</a></li>
+                        <li class="nav-links__item"><a class="nav-links__link" href="#portfolio">РАБОТЫ</a></li>
+                        <li class="nav-links__item"><a class="nav-links__link" href="#process">ПРОЦЕСС</a></li>
+                        <li class="nav-links__item"><a class="nav-links__link" href="#contacts">КОНТАКТЫ</a></li>
+                    </ul>
+                </nav>
+                <a class="header-container__burger-icon" href="#popup" >
+                    <span class="burger-icon__items"></span>
+                    <span class="burger-icon__items"></span>
+                    <span class="burger-icon__items"></span>
+                </a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="main-section">
+            <div class="fix-container">
+                <div class="section-container">
+                    <div class="section-container__lap">
+                        <img src="./svg//Vector.png" alt="laptop">
+                    </div>
+                    <div class="section-container__right-block">
+                        <h1 class="section-container__caption">Дизайн и верстка</h1>
+                        <p class="section-container__discription">Lorem Ipsum - это текст-"рыба", часто используемый в печати и<br> вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
+                        <button class="section-container__button">НАПИСАТЬ МНЕ</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="main-aboutme" id="about-me">
+            <div class="fix-container">
+                <div class="aboutme">
+                    <h2 class="aboutme__title">Обо мне</h2>
+                    <p class="aboutme__text" >Lorem Ipsum - это текст-"рыба", часто используемый в печати и<br> вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
+                </div>
+            </div>
+        </section>
+        <section class="main-projects">
+            <div class="projects">
+                <ul class="projects__list">
+                    <li class="projects__item"><img class="projects__icon" src="./svg/Group.jpg" alt="icon"><img src="./svg/text.png" alt="icon" class="img-text"></li>
+                    <li class="projects__item"><img class="projects__icon" src="./svg/Group.jpg" alt="icon"><img src="./svg/text.png" alt="icon" class="img-text"></li>
+                    <li class="projects__item"><img class="projects__icon" src="./svg/Group.jpg" alt="icon"><img src="./svg/text.png" alt="icon" class="img-text"></li>
+                    <li class="projects__item"><img class="projects__icon" src="./svg/Group.jpg" alt="icon"><img src="./svg/text.png" alt="icon" class="img-text"></li>
+                    <li class="projects__item"><img class="projects__icon" src="./svg/Group.jpg" alt="icon"><img src="./svg/text.png" alt="icon" class="img-text"></li>
+                    <li class="projects__item"><img class="projects__icon" src="./svg/Group.jpg" alt="icon"><img src="./svg/text.png" alt="icon" class="img-text"></li>
+                </ul>
+            </div>
+        </section>
+        <section class="main-myskills" id="portfolio">
+            <div class="fix-container">
+                <div class="myskills-container">
+                    <div class="myskills-container__skills">
+                        <h2 class="myskills-container__title">Мои навыки</h2>
+                        <ul class="myskills-container__progress">
+                            <li class="myskills-container__item">
+                                <p>Adobe Photoshop</p>
+                                <progress class="myskills-container__progress-line" id="file1" max="100" value="78"> </progress>
+                            </li>
+                            <li class="myskills-container__item">
+                                <p>Adobe Photoshop</p>
+                                <progress class="myskills-container__progress-line" id="file2" max="100" value="78"></progress>
+                            </li>
+                            <li class="myskills-container__item">
+                                <p>Adobe Photoshop</p>
+                                <progress class="myskills-container__progress-line" id="file3" max="100" value="78"></progress>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="box-photo">
+                        <img src="./img/Rectangle 3.jpg" alt="My Photo">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+    <div class="mobile-container" id="popup">
+        <a href="" class="popup_area"></a>
+        <div class="header-mobile">
+            <a href="#" class="close-icon">
+                <span></span>
+                <span></span>
+            </a>
+            <ul class="mobile-list">
+                <li><a href="index.html" class="mobile-list_item">ГЛАВНАЯ</a></li>
+                <li><a href="#about-me" class="mobile-list_item">ОБ АВТОРЕ</a></li>
+                <li><a href="#portfolio" class="mobile-list_item">РАБОТЫ</a></li>
+                <li><a href="#process" class="mobile-list_item">ПРОЦЕСС</a></li>
+                <li><a href="#contacts" class="mobile-list_item">КОНТАКТЫ</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html> 
